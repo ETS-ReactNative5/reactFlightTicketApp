@@ -6,7 +6,7 @@
 - 🧳 Flight filtering by date and direction of travel.
 - 💺 User reservation and seat selection.
 - 🖨️ Generating QR code with flight name and displaying users reservation detail.
-- 🎨 Powerful UI in every detail.
+- 🎨 minimalist UI philosophy.
 
 ## 📣 Introduction
 Flight Ticket Application helps you quickly access detailed flight information by filtering all flights at Amsterdam Schiphol airport by date and route direction. The seat and flight information reserved for the flight are saved as a QR code.
