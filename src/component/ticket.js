@@ -82,7 +82,7 @@ const TicketCard = ({
           borderRadius={8} 
           style={{ width: wp("40%"), height: hp("5%") }}
         >
-          <Text style={styles.titleQr}>QR Code Görüntüle</Text>
+          <Text style={styles.titleQr}>View QR Code</Text>
         
         </Box>
 
