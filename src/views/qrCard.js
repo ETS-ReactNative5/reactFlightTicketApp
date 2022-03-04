@@ -11,7 +11,7 @@ const QrCard = ({ route }) => {
   
   const generateQRCode = (canvas) => {
     if (canvas !== null) {
-      // QRCode options
+      // QRCode ayarlar
       var options = {
         text: `Flight Name: ${flightName}\n 
                 FlightDate:   ${flightDate}\n 
@@ -20,7 +20,7 @@ const QrCard = ({ route }) => {
         width: 300,
         height: 300,
       };
-      // Create QRCode Object
+      // QRCode Objesi Oluşturma
       var qrCode = new QRCode(canvas, options);
     }
   };

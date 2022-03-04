@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, View } from "react-native";
 import DatePicker from "react-native-datepicker";
 
 const DatePickerApp = ({setDateName, dateName}) => {
@@ -13,9 +13,9 @@ const DatePickerApp = ({setDateName, dateName}) => {
           date={dateName}
           mode="date"
           placeholder="Select Date"
-          format="YYYY-MM-DD"
-          minDate="2021-01-01"
-          maxDate="2025-01-01"
+          format="YYYY-MM-DD"            //Tarih Girdi Formatı.
+          minDate="2021-01-01"          //Minimum Seçilebilir Tarih .
+          maxDate="2025-01-01"          //Maximum Seçilebilir Tarih.
           confirmBtnText="Save"
           cancelBtnText="Cancel"
           customStyles={{
@@ -60,11 +60,6 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start",
     alignItems: "flex-start",
     backgroundColor: "skyblue",
-  },
-  title: {
-    textAlign: "left",
-    fontSize: 20,
-    fontWeight: "bold",
   },
   datePickerStyle: {
     left:5,

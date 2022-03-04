@@ -1,4 +1,4 @@
-import { Alert, FlatList, StyleSheet, View } from "react-native";
+import { FlatList, StyleSheet} from "react-native";
 import React, { useEffect, useState } from "react";
 import Box from "../component/box";
 import Text from "../component/text";

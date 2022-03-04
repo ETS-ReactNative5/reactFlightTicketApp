@@ -1,13 +1,12 @@
 import react from "react";
 import { Text, StyleSheet } from "react-native";
-import { TouchableOpacity } from "react-native";
 import Box from "./box";
 import Button from "./button";
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
-import { color } from "styled-system";
+
 
 const Card = ({
   goCardDetail,
