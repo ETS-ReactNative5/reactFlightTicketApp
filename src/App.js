@@ -55,13 +55,15 @@ export default function App() {
               component={HistoryStack}
               options={{ headerShown: false }}
             />
-
             <Tab.Screen
               name="Search"
               component={SearchStack}
               options={{ headerShown: false }}
             />
-            <Tab.Screen name="Favorite" component={FavoriteView} />
+            <Tab.Screen 
+              name="Favorite" 
+              component={FavoriteView} 
+            />
           </Tab.Navigator>
         </NavigationContainer>
       </Box>

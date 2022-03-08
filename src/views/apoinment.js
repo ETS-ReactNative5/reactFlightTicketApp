@@ -136,7 +136,6 @@ const apointment = ({ route }) => {
           ml={10} 
           justifyContent="space-around" 
           alignItems="center" 
-          alignItems="center"
         >
           <Text style={styles.title}>⏰  {flightScheduleTime} </Text>
         </Box>
@@ -150,7 +149,6 @@ const apointment = ({ route }) => {
           mr={10} 
           justifyContent="space-around" 
           alignItems="center" 
-
         >
           <Text style={styles.title}>📍  {flightDestination} </Text>
         </Box>

@@ -36,7 +36,6 @@ const Card = ({
           justifyContent="space-around" 
           alignItems="center" 
           ml={10} 
-          alignItems="center"
         >
         <Text style={styles.title}>⏰  {scheduleTime} </Text>
         </Box>
